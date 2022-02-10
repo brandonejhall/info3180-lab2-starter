@@ -1,3 +1,70 @@
 body {
     padding-top: 5rem;
 }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
+.profile{
+    border: 1px solid #000;
+    border-radius: 25px;
+    width: 40%;
+    height: 40%;
+}
+.tophalf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    flex-direction: column;
+    background: rgb(255,255,240);
+    background: radial-gradient(circle, rgba(255,255,240,1) 0%, rgba(0,212,255,1) 180%);
+}
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+img{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin:5%;
+}
+.bottomhalf{
+    display: flex;
+    align-items: center;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom: 10%;
+    justify-content: center;
+    flex-direction: column;
+
+}
+button{
+    border-radius: 10px;
+    border:0px none #000;
+    background-color: limegreen;
+    width: 50%;
+    height:20%;
+    padding:1%;
+}
